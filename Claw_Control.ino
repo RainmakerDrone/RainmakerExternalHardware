@@ -18,7 +18,7 @@ int sevSeg_1 = 10; //E
 int sevSeg_2 = 11; //D
 int sevSeg_3 = 12; //DP
 int sevSeg_4 = 13; //C
-int sevSeg_5 = 7;/ /G
+int sevSeg_5 = 7; //G
 int sevSeg_7 = A1; //B
 int sevSeg_8 = A2; //Char 2
 int sevSeg_9 = A3; //Char 3
@@ -293,4 +293,4 @@ void activateTimer(){
 
 ISR(EXT_INT0_vect){
     goTimer = 1;
-} A       AAAQX
+}
